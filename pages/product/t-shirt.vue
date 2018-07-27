@@ -1,8 +1,8 @@
 <template>
   <section class="product-container">
     <div class="product-preview">
-        <img :src="printsList[selectedPrint].src"
-             :srcset="`${printsList[selectedPrint].src2x} 2x, ${printsList[selectedPrint].src3x} 3x`">
+        <img class="product-preview__background" :src="colorsList[selectedColor].src">
+        <img class="product-preview__print" :src="printsList[selectedPrint].src">
     </div>
     <div class="product-info">
         <h1>The RtB Tee</h1>
@@ -17,7 +17,7 @@
                     <div class="product-form__image-option" 
                          v-for="(color, index) in colorsList" 
                          :key="`color-${index}`" 
-                         v-bind:style="{ backgroundColor: color }"
+                         v-bind:style="{ backgroundColor: color.color }"
                          v-bind:class="{ 'product-form__image-option--active': index === selectedColor }"
                          v-on:click="selectedColor = index">
                     </div>
@@ -28,10 +28,10 @@
                     Size
                 </div>
                 <div class="product-form__options">
-                    <button class="product-form__button-option"
+                    <button class="product-form__button"
                          v-for="(size, index) in sizesList" 
                          :key="`size-${index}`" 
-                         v-bind:class="{ 'product-form__button-option--active': index === selectedSize }"
+                         v-bind:class="{ 'product-form__button--active': index === selectedSize }"
                          v-on:click="selectedSize = index">
                          {{size}}
                     </button>
@@ -42,13 +42,18 @@
                     Patterns
                 </div>
                 <div class="product-form__options">
-                    <img class="product-form__image-option" 
+                    <div class="product-form__image-option" 
                          v-for="(print, index) in printsList" 
                          :key="`print-${index}`" 
                          v-bind:class="{ 'product-form__image-option--active': index === selectedPrint }"
-                         v-on:click="selectedPrint = index"
-                         :src="print.preview"/>
+                         v-on:click="selectedPrint = index">
+                         <img :src="print.preview"/>
+                         <span v-if="!print.preview">NO</span>
+                    </div>
                 </div>
+            </div>
+            <div class="product-form__footer">
+                <button class="product-form__button product-form__button--active">Add to Cart</button>
             </div>
         </div>
     </div>
@@ -61,41 +66,44 @@ export default {
       return {
         printsList: [
             {
-                src: require('~/assets/zip-mouth.png'),
-                src2x: require('~/assets/zip-mouth@2x.png'),
-                src3x: require('~/assets/zip-mouth@3x.png'),
+                src: '',
+                preview: ''
+            },
+            {
+                src: require('~/assets/zip-mouth.svg'),
                 preview: require('~/assets/zip-mouth.svg')
             },
             {
-                src: require('~/assets/tentacles.png'),
-                src2x: require('~/assets/tentacles@2x.png'),
-                src3x: require('~/assets/tentacles@3x.png'),
+                src: require('~/assets/tentacles.svg'),
                 preview: require('~/assets/tentacles.svg')
             },
             {
-                src: require('~/assets/finger.png'),
-                src2x: require('~/assets/finger@2x.png'),
-                src3x: require('~/assets/finger@3x.png'),
+                src: require('~/assets/finger.svg'),
                 preview: require('~/assets/finger.svg')
             },
             {
-                src: require('~/assets/geometry.png'),
-                src2x: require('~/assets/geometry@2x.png'),
-                src3x: require('~/assets/geometry@3x.png'),
+                src: require('~/assets/geometry.svg'),
                 preview: require('~/assets/geometry.svg')
             },
             {
-                src: require('~/assets/holes.png'),
-                src2x: require('~/assets/holes@2x.png'),
-                src3x: require('~/assets/holes@3x.png'),
+                src: require('~/assets/holes.svg'),
                 preview: require('~/assets/holes.svg')
             }
         ],
         selectedPrint: 0,
         colorsList: [
-            '#ffffff',
-            '#000000',
-            '#e1e1e1'
+            {
+                color: '#ffffff',
+                src: require('~/assets/t-shirt-white.png')
+            },
+            {
+                color: '#000000',
+                src: require('~/assets/t-shirt-black.png')
+            },
+            {
+                color: '#e1e1e1',
+                src: require('~/assets/t-shirt-grey.png')
+            }
         ],
         selectedColor: 0,
         sizesList: [
@@ -122,8 +130,20 @@ export default {
     }
 
     .product-preview {
+        position: relative;
         width: 680px;
         margin-right: 20px;
+    }
+
+    .product-preview__print {
+        position: absolute;
+        top: calc(50% - 180px);
+        left: calc(50% - 140px);
+        width: 300px;
+    }
+
+    .product-preview__background {
+        width: 100%;
     }
 
     .product-info {
@@ -165,16 +185,24 @@ export default {
     }
 
     .product-form__options {
+        display: flex;
         margin-top: 10px;
     }
 
     .product-form__image-option {
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         border: 1px solid #e1e1e1;
         cursor: pointer;
+        overflow: hidden;
+    }
+
+    .product-form__image-option span {
+        color: #5b00ff;
     }
 
     .product-form__image-option + .product-form__image-option {
@@ -185,7 +213,7 @@ export default {
         border-color: #5b00ff;
     }
 
-    .product-form__button-option {
+    .product-form__button {
         line-height: 60px;
         padding: 0 32px;
         font-size: inherit;
@@ -195,25 +223,31 @@ export default {
         cursor: pointer;
     }
 
-    .product-form__button-option + .product-form__button-option {
+    .product-form__button + .product-form__button {
         border-left-width: 0px;
     }
 
-    .product-form__button-option:first-child {
-        border-radius: 4px 0 0 4px;
+    .product-form__button:first-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
     }
 
-    .product-form__button-option:last-child {
-        border-radius: 0 4px 4px 0;
+    .product-form__button:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
     }
 
-    .product-form__button-option.product-form__button-option--active {
+    .product-form__button.product-form__button--active {
         color: #fff;
         background-color: #5b00ff;
     }
 
-    .product-form__button-option:hover:not(.product-form__button-option--active) {
+    .product-form__button:hover:not(.product-form__button--active) {
         background-color: rgba(91, 0, 255, 0.04);
+    }
+
+    .product-form__footer {
+        margin-top: 60px;
     }
     
 </style>
