@@ -124,7 +124,7 @@
       The RtB T<span class="thertbtee--white">ee</span>
     </div>
     <img class="group26copy2" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-group-26-copy-2.png"/>
-    <a class="rectangle" href="products/t-shirt">Customize</a>
+    <a class="rectangle" href="t-shirt">Customize</a>
     <div class="thesesocksdontso">
       These
       <br/>

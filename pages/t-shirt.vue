@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="product-form__footer">
-                <a class="product-form__button product-form__button--active" href="/order-confirmation">Add to Cart</a>
+                <a class="product-form__button product-form__button--active" href="order-confirmation">Add to Cart</a>
             </div>
         </div>
     </div>
