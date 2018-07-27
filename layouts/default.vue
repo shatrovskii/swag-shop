@@ -6,7 +6,7 @@
 
 <style>
 html {
-  font-family: Gerbera, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Gerbera-Medium", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -51,18 +51,20 @@ html {
 }
 
 @font-face {
-  font-family: 'Gerbera';
-  font-style: normal;
-  font-weight: normal;
-  src: url('https://realtimeboard.com/static/font/Gerbera/Gerbera-Regular.woff2') format('woff2')
+  font-family: "Gerbera-Bold";
+  src: url('https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/fonts/Gerbera-Bold.otf') format("opentype");
 }
-
 @font-face {
-  font-family: 'ActionCondensedBold';
-  src: url('https://realtimeboard.com/blog/wp-content/themes/prod-theme/fonts/action/ActionCondensedBold-Grade1.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-stretched: condensed;
+  font-family: "ActionCondensedBold-Grade1";
+  src: url('https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/fonts/ActionCondensedBold-Grade1.otf') format("opentype");
+}
+@font-face {
+  font-family: "Gerbera-Medium";
+  src: url('https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/fonts/Gerbera-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "Gerbera-Light";
+  src: url('https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/fonts/Gerbera-Light.otf') format("opentype");
 }
 </style>
 

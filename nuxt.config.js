@@ -10,7 +10,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'nuxt',
+    title: 'RealtimeBoard swag shop',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,6 +23,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
+  //plugins: ['~/plugins/vue-progressive-image'],
   loading: { color: '#3B8070' },
   /*
   ** Build configuration
