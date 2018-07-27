@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <h1 class="h1 full-height">RtB Swag Shop</h1>
+    <a href="product/t-shirt"><h1 class="h1 full-height">RtB Swag Shop</h1></a>
     <div class="image-container half-height">
       <div class="background-text"></div>
       <div class="background-text background-text--left"></div>
