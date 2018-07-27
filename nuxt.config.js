@@ -1,5 +1,12 @@
+// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/<repository-name>/'
+  }
+} : {}
+
 module.exports = {
-  /*
+   /*
   ** Headers of the page
   */
   head: {
@@ -20,6 +27,7 @@ module.exports = {
   /*
   ** Build configuration
   */
+  ...routerBase,  
   build: {
     /*
     ** Run ESLint on save
