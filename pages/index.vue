@@ -1,6 +1,6 @@
 <template>
   <div class="artboard4copy2">
-  <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+  <div style="width: 1440px; height: 100%; position:relative; margin:auto; overflow: hidden;">
     <img class="group63" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-group-63.png"/>
     <div class="group20">
       <img class="path178copy" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-path-178-copy.png"/>

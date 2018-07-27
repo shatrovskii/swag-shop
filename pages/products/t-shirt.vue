@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="product-form__footer">
-                <button class="product-form__button product-form__button--active">Add to Cart</button>
+                <a class="product-form__button product-form__button--active" href="../order-confirmation">Add to Cart</a>
             </div>
         </div>
     </div>
@@ -215,6 +215,7 @@ export default {
     }
 
     .product-form__button {
+        display: inline-block;
         line-height: 60px;
         padding: 0 32px;
         font-size: inherit;
@@ -222,6 +223,7 @@ export default {
         background-color: #fff;
         border: 1px solid #5b00ff;
         cursor: pointer;
+        text-decoration: none;
     }
 
     .product-form__button + .product-form__button {
