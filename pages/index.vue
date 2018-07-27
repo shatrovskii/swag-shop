@@ -54,13 +54,15 @@
     <img class="path108" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-path-108.png"/>
     <div class="group11">
       <div class="rtbshoplogocopy3">
-        <img class="fill1" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-1@2x.png"/>
-        <img class="fill3" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-3@2x.png"/>
-        <img class="fill5" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-5@2x.png"/>
-        <img class="fill7" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-7@2x.png"/>
-        <img class="fill9" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-9@2x.png"/>
-        <img class="fill11" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-11@2x.png"/>
-        <img class="fill13" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-13@2x.png"/>
+        <div class="rotate">
+          <img class="fill1" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-1@2x.png"/>
+          <img class="fill3" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-3@2x.png"/>
+          <img class="fill5" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-5@2x.png"/>
+          <img class="fill7" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-7@2x.png"/>
+          <img class="fill9" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-9@2x.png"/>
+          <img class="fill11" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-11@2x.png"/>
+          <img class="fill13" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-13@2x.png"/>
+        </div>
         <img class="fill15" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-15@2x.png"/>
         <img class="fill17" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-17@2x.png"/>
         <img class="fill19" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-fill-19@2x.png"/>
@@ -122,11 +124,7 @@
       The RtB T<span class="thertbtee--white">ee</span>
     </div>
     <img class="group26copy2" src="https://anima-uploads.s3.amazonaws.com/5b5acf3cd43a2c000be84e0f/5b5acff92934ef000a4f5022/5b5acffa2934ef000949544a/img/artboard-4-copy-2-group-26-copy-2.png"/>
-    <div class="rectangle">
-    </div>
-    <a class="customize" href="products/t-shirt">
-      Customize
-    </a>
+    <a class="rectangle" href="products/t-shirt">Customize</a>
     <div class="thesesocksdontso">
       These
       <br/>
@@ -255,9 +253,9 @@ div {
   width               : 746px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group20 {
   top                 : 6061px;
@@ -266,9 +264,9 @@ div {
   width               : 741px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group20 .path178copy {
   top                 : 6px;
@@ -277,9 +275,9 @@ div {
   width               : 508px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group20 .group49copy {
   top                 : 0px;
@@ -288,9 +286,9 @@ div {
   width               : 387px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group20 .oval44copy {
   top                 : 157px;
@@ -299,9 +297,9 @@ div {
   width               : 23px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group58 {
   top                 : 3808px;
@@ -322,9 +320,9 @@ div {
   width               : 1449px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .rectangle5 {
   top                 : 3841px;
@@ -333,9 +331,9 @@ div {
   width               : 1559px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .rectangle5copy {
   top                 : 5135px;
@@ -355,9 +353,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 50.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -371,9 +369,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 50.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -388,9 +386,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37 {
   top                 : 4683px;
@@ -399,9 +397,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37copy6 {
   top                 : 4947px;
@@ -410,9 +408,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37copy {
   top                 : 4630px;
@@ -421,9 +419,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37copy5 {
   top                 : 4801px;
@@ -432,9 +430,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37copy3 {
   top                 : 4852px;
@@ -443,9 +441,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37copy7 {
   top                 : 4784px;
@@ -454,9 +452,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37copy2 {
   top                 : 4767px;
@@ -465,9 +463,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group37copy4 {
   top                 : 4683px;
@@ -476,9 +474,9 @@ div {
   width               : 189px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .meantechpersone {
   top                 : 5105px;
@@ -504,9 +502,9 @@ div {
   width               : 347px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group38 {
   top                 : 5503px;
@@ -515,9 +513,9 @@ div {
   width               : 544px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 {
   top                 : 5589px;
@@ -526,9 +524,9 @@ div {
   width               : 474px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .bitmapcopy {
   top                 : 1px;
@@ -537,9 +535,9 @@ div {
   width               : 472px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 {
   top                 : 227px;
@@ -548,9 +546,9 @@ div {
   width               : 286px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .path51copy {
   top                 : 292px;
@@ -559,9 +557,9 @@ div {
   width               : 82px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .group15 {
   top                 : 0px;
@@ -570,9 +568,9 @@ div {
   width               : 285px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .group15 .group13 {
   top                 : 0px;
@@ -581,9 +579,9 @@ div {
   width               : 285px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .group15 .group13 .path70copy {
   top                 : 223px;
@@ -592,9 +590,9 @@ div {
   width               : 79px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .group15 .group13 .rectangle3copy {
   background-color    : rgba(0, 0, 0, 1.0);
@@ -604,9 +602,9 @@ div {
   width               : 104px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .group15 .group13 .group {
   top                 : 55px;
@@ -615,9 +613,9 @@ div {
   width               : 280px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .group15 .group14 {
   top                 : 291px;
@@ -626,9 +624,9 @@ div {
   width               : 91px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group8 .group16 .group15 .group14 .a1linewordmarkcopy3 {
   top                 : 27px;
@@ -659,9 +657,9 @@ div {
   width               : 476px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .path108 {
   top                 : 4217px;
@@ -670,9 +668,9 @@ div {
   width               : 309px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 {
   top                 : 81px;
@@ -681,9 +679,9 @@ div {
   width               : 177px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 {
   top                 : 1px;
@@ -692,10 +690,16 @@ div {
   width               : 176px;
   margin              : 0;
   position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
+.artboard4copy2 .group11 .rtbshoplogocopy3 .rotate {
+  height: 100%;
+  transform-origin: center center;
+  animation: rotate-logo linear infinite 5s;
+}
+
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill1 {
   top                 : 51px;
   left                : 0px;
@@ -703,9 +707,9 @@ div {
   width               : 35px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill3 {
   top                 : 4px;
@@ -714,9 +718,9 @@ div {
   width               : 27px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill5 {
   top                 : 0px;
@@ -725,9 +729,9 @@ div {
   width               : 25px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill7 {
   top                 : 55px;
@@ -736,9 +740,9 @@ div {
   width               : 36px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill9 {
   top                 : 122px;
@@ -747,9 +751,9 @@ div {
   width               : 31px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill11 {
   top                 : 141px;
@@ -758,9 +762,9 @@ div {
   width               : 21px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill13 {
   top                 : 105px;
@@ -769,9 +773,9 @@ div {
   width               : 34px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill15 {
   top                 : 77px;
@@ -780,9 +784,9 @@ div {
   width               : 8px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill17 {
   top                 : 73px;
@@ -791,9 +795,9 @@ div {
   width               : 10px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill19 {
   top                 : 77px;
@@ -802,9 +806,9 @@ div {
   width               : 11px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group11 .rtbshoplogocopy3 .fill21 {
   top                 : 77px;
@@ -813,9 +817,9 @@ div {
   width               : 11px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 {
   top                 : 685px;
@@ -824,9 +828,9 @@ div {
   width               : 1304px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 {
   top                 : 183px;
@@ -835,9 +839,9 @@ div {
   width               : 882px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .combinedshapecopy {
   top                 : 365px;
@@ -846,9 +850,9 @@ div {
   width               : 173px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .combinedshape {
   top                 : 365px;
@@ -857,9 +861,9 @@ div {
   width               : 173px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .group16copy8 {
   top                 : 23px;
@@ -879,9 +883,9 @@ div {
   width               : 79px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .oval9copy {
   top                 : 370px;
@@ -890,9 +894,9 @@ div {
   width               : 79px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .path141copy {
   top                 : 251px;
@@ -901,9 +905,9 @@ div {
   width               : 128px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .path5 {
   top                 : 59px;
@@ -912,9 +916,9 @@ div {
   width               : 466px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .group16copy9 {
   top                 : 89px;
@@ -956,9 +960,9 @@ div {
   width               : 303px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .group45copy .path372 {
   top                 : 84px;
@@ -967,9 +971,9 @@ div {
   width               : 303px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .group45copy .path372copy {
   top                 : 47px;
@@ -978,9 +982,9 @@ div {
   width               : 303px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .group45copy .path372copy2 {
   top                 : 0px;
@@ -989,9 +993,9 @@ div {
   width               : 303px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .oval33copy {
   top                 : 20px;
@@ -1000,9 +1004,9 @@ div {
   width               : 34px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .oval33copy2 {
   top                 : 371px;
@@ -1011,9 +1015,9 @@ div {
   width               : 44px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .oval33copy3 {
   top                 : 371px;
@@ -1022,9 +1026,9 @@ div {
   width               : 44px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .groupcopy {
   top                 : 5px;
@@ -1033,9 +1037,9 @@ div {
   width               : 72px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .groupcopy .group7copy {
   top                 : 201px;
@@ -1066,9 +1070,9 @@ div {
   width               : 66px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .rectangle36copy2 {
   top                 : 48px;
@@ -1080,9 +1084,9 @@ div {
   border-style        : solid;
   border-width        : 4px;
   border-color        : rgba(0, 0, 0, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .oval33copy4 {
   top                 : 359px;
@@ -1091,9 +1095,9 @@ div {
   width               : 34px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .group {
   top                 : 20px;
@@ -1102,9 +1106,9 @@ div {
   width               : 177px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .rectangle7 {
   background-color    : rgba(0, 0, 0, 1.0);
@@ -1114,9 +1118,9 @@ div {
   width               : 173px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .rectangle36copy {
   top                 : 128px;
@@ -1128,9 +1132,9 @@ div {
   border-style        : solid;
   border-width        : 4px;
   border-color        : rgba(0, 0, 0, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group3 .rectangle10 {
   background-color    : rgba(0, 0, 0, 1.0);
@@ -1140,9 +1144,9 @@ div {
   width               : 23px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group9copy2 {
   top                 : 386px;
@@ -1182,9 +1186,9 @@ div {
   margin              : 0;
   position            : absolute;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   background-color: #00ECCD;
   background-image: url(~/assets/background.png);
   animation: background-move linear reverse infinite 5s;
@@ -1196,9 +1200,9 @@ div {
   width               : 1603px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group19 .group9copy .group9 .beahumanbillboard {
   top                 : 0px;
@@ -1207,9 +1211,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 50.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1223,9 +1227,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 50.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1239,9 +1243,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 50.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1275,9 +1279,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 50.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1304,9 +1308,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 50.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1320,9 +1324,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "ActionCondensedBold-Grade1", Helvetica, Arial, serif;
   font-size           : 127.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1336,9 +1340,9 @@ div {
   width               : 101px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group .fill1 {
   top                 : 0px;
@@ -1347,9 +1351,9 @@ div {
   width               : 101px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group .fill2 {
   top                 : 25px;
@@ -1358,9 +1362,9 @@ div {
   width               : 37px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .fill1 {
   top                 : 131px;
@@ -1369,9 +1373,9 @@ div {
   width               : 204px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group25 {
   top                 : 2840px;
@@ -1380,9 +1384,9 @@ div {
   width               : 387px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .tshirtblackcopy {
   top                 : 1627px;
@@ -1391,9 +1395,9 @@ div {
   width               : 576px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .thertbtee {
   top                 : 1581px;
@@ -1402,9 +1406,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "ActionCondensedBold-Grade1", Helvetica, Arial, serif;
   font-size           : 288.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1421,9 +1425,9 @@ div {
   width               : 979px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .rectangle {
   background-color    : rgba(91, 0, 255, 1.0);
@@ -1433,25 +1437,14 @@ div {
   width               : 427px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.artboard4copy2 .customize {
-  top                 : 1930px;
-  left                : 705px;
-  height              : auto;
-  width               : auto;
-  margin              : 0;
-  position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Gerbera-Medium", Helvetica, Arial, serif;
   font-size           : 64.0px;
   color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
+  text-align          : center;
   line-height         : 85.0px;
+}
+.artboard4copy2 .rectangle:hover {
+  background-color: rgb(80, 0, 230);
 }
 .artboard4copy2 .thesesocksdontso {
   top                 : 5442px;
@@ -1460,9 +1453,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "ActionCondensedBold-Grade1", Helvetica, Arial, serif;
   font-size           : 120.0px;
   color               : rgba(33, 33, 33, 1.0);
@@ -1476,9 +1469,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(26, 25, 25, 1.0);
@@ -1492,14 +1485,15 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Light", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 27.0px;
+  cursor: pointer;
 }
 .artboard4copy2 .paperbackpack80 {
   top                 : 2770px;
@@ -1508,9 +1502,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(26, 25, 25, 1.0);
@@ -1524,9 +1518,9 @@ div {
   width               : 1297px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .a253meantechperson273t {
   top                 : 5360px;
@@ -1535,9 +1529,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(26, 25, 25, 1.0);
@@ -1551,9 +1545,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(26, 25, 25, 1.0);
@@ -1567,9 +1561,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(26, 25, 25, 1.0);
@@ -1583,9 +1577,9 @@ div {
   width               : 493px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group65 {
   top                 : 6528px;
@@ -1594,9 +1588,9 @@ div {
   width               : 1624px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 {
   top                 : 6561px;
@@ -1605,9 +1599,9 @@ div {
   width               : 17px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rectangle {
   top                 : 0px;
@@ -1616,9 +1610,9 @@ div {
   width               : 16px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 {
   top                 : 4px;
@@ -1627,9 +1621,9 @@ div {
   width               : 14px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill1 {
   top                 : 4px;
@@ -1638,9 +1632,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill3 {
   top                 : 1px;
@@ -1649,9 +1643,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill5 {
   top                 : 0px;
@@ -1660,9 +1654,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill7 {
   top                 : 5px;
@@ -1671,9 +1665,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill9 {
   top                 : 10px;
@@ -1682,9 +1676,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill11 {
   top                 : 11px;
@@ -1693,9 +1687,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill13 {
   top                 : 9px;
@@ -1704,9 +1698,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill15 {
   top                 : 6px;
@@ -1715,9 +1709,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill17 {
   top                 : 6px;
@@ -1726,9 +1720,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill19 {
   top                 : 6px;
@@ -1737,9 +1731,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56 .rtbshoplogocopy3 .fill21 {
   top                 : 6px;
@@ -1748,9 +1742,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy {
   top                 : 6561px;
@@ -1759,9 +1753,9 @@ div {
   width               : 17px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rectangle {
   top                 : 0px;
@@ -1770,9 +1764,9 @@ div {
   width               : 16px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 {
   top                 : 4px;
@@ -1781,9 +1775,9 @@ div {
   width               : 14px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill1 {
   top                 : 4px;
@@ -1792,9 +1786,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill3 {
   top                 : 1px;
@@ -1803,9 +1797,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill5 {
   top                 : 0px;
@@ -1814,9 +1808,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill7 {
   top                 : 5px;
@@ -1825,9 +1819,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill9 {
   top                 : 10px;
@@ -1836,9 +1830,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill11 {
   top                 : 11px;
@@ -1847,9 +1841,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill13 {
   top                 : 9px;
@@ -1858,9 +1852,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill15 {
   top                 : 6px;
@@ -1869,9 +1863,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill17 {
   top                 : 6px;
@@ -1880,9 +1874,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill19 {
   top                 : 6px;
@@ -1891,9 +1885,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy .rtbshoplogocopy3 .fill21 {
   top                 : 6px;
@@ -1902,9 +1896,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 {
   top                 : 6561px;
@@ -1913,9 +1907,9 @@ div {
   width               : 17px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rectangle {
   top                 : 0px;
@@ -1924,9 +1918,9 @@ div {
   width               : 16px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 {
   top                 : 4px;
@@ -1935,9 +1929,9 @@ div {
   width               : 14px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill1 {
   top                 : 4px;
@@ -1946,9 +1940,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill3 {
   top                 : 1px;
@@ -1957,9 +1951,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill5 {
   top                 : 0px;
@@ -1968,9 +1962,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill7 {
   top                 : 5px;
@@ -1979,9 +1973,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill9 {
   top                 : 10px;
@@ -1990,9 +1984,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill11 {
   top                 : 11px;
@@ -2001,9 +1995,9 @@ div {
   width               : 2px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill13 {
   top                 : 9px;
@@ -2012,9 +2006,9 @@ div {
   width               : 3px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill15 {
   top                 : 6px;
@@ -2023,9 +2017,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill17 {
   top                 : 6px;
@@ -2034,9 +2028,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill19 {
   top                 : 6px;
@@ -2045,9 +2039,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group56copy2 .rtbshoplogocopy3 .fill21 {
   top                 : 6px;
@@ -2056,9 +2050,9 @@ div {
   width               : 1px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .rectangle3 {
   top                 : 6938px;
@@ -2067,9 +2061,9 @@ div {
   width               : 1440px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .welcometorealtimebcopy {
   top                 : 6902px;
@@ -2078,9 +2072,9 @@ div {
   width               : 1080px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .gumshoes140 {
   top                 : 4135px;
@@ -2089,9 +2083,9 @@ div {
   width               : auto;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
   font-family         : "Gerbera-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(26, 25, 25, 1.0);
@@ -2105,9 +2099,9 @@ div {
   width               : 941px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group60 .group61 {
   top                 : 0px;
@@ -2116,9 +2110,9 @@ div {
   width               : 941px;
   margin              : 0;
   position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .bitmap {
   top                 : 2892px;
@@ -2127,9 +2121,9 @@ div {
   width               : 593px;
   margin              : 0;
   position            : absolute;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  
+  
+  
 }
 .artboard4copy2 .group51 {
   top                 : 3529px;
@@ -2201,6 +2195,12 @@ div {
 @keyframes background-move {
   100% {
     background-position-x: 553px;
+  }
+}
+
+@keyframes rotate-logo {
+  100% {
+    transform: rotate(360deg);
   }
 }
 
